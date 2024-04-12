@@ -1801,10 +1801,11 @@ textarea {
     .information_block_3_1 {
         width: 85px;
         font-size: small;
+        height: 232px;
     }
     .information_block_3_2 {
         width: 85px;
-        height: 248px;
+        height: 232px;
     }
     .information_block_4 {
         width: 85px;
