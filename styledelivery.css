@@ -468,7 +468,10 @@
         font-size: small;
     }    
     .sections {
-        width: 400px;
+        width: auto;
+    }
+    .menu__item_chapter {
+    padding-right: 10px;
     }
     #menu__link {
         font-size: small;
