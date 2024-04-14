@@ -377,6 +377,9 @@
         width: 500px;
         height: auto;
     }
+    .menu__item_chapter {
+    padding-right: 10px;
+    }
     #menu__link {
         font-size: small;
     }
