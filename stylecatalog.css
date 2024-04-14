@@ -507,6 +507,9 @@ body {
     .sections {
         width: auto;
     }
+    .menu_text_chapter {
+        padding: 0;
+    }
     #menu__link {
         font-size: small;
     }
