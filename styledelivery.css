@@ -482,10 +482,9 @@
     .number_text {
         font-size: small;
     }
-    .button {
-        width: 150px;
-    }
+
     .button_1 {
+        width: 130px;
         height: 20px;
     }
     .blok_contacts_text_2 {
