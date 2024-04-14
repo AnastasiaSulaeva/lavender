@@ -423,7 +423,7 @@
         font-size: small;
     }
     .number_phone {
-        width: 80px;
+        width: auto;
     }
     .number_text {
         font-size: small;
@@ -477,7 +477,7 @@
         font-size: small;
     }
     .number_phone {
-        width: 80px;
+        width: auto;
     }
     .number_text {
         font-size: small;
