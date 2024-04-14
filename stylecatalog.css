@@ -505,7 +505,7 @@ body {
         margin-top: 14px;
     }    
     .sections {
-        width: 500px;
+        width: auto;
     }
     #menu__link {
         font-size: small;
