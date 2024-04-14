@@ -412,6 +412,9 @@
     .sections {
         width: 500px;
     }
+    .menu__item_chapter {
+    padding-right: 10px;
+    }
     .menu_text_chapter {
         padding: 0;
     }
