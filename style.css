@@ -760,7 +760,7 @@ textarea {
   height: 100%;
   width: 2px;
   background: #6a5975;
-  right: -65px;
+  right: -75px;
   top: 50%;
   transform: translateY(-50%);
 }
