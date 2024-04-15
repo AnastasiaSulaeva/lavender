@@ -46,7 +46,7 @@
 }
 
 .form__btn:focus{
-  outline: rgb(61, 61, 255) 2px solid;
+  outline: #39313c 2px solid;
 }
 @media  screen and (max-width: 480px) {
   .container{
