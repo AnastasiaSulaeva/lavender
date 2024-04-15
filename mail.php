@@ -14,7 +14,7 @@ $tel = $data['tel'];
 $msg = $data['msg'];
 
 // Контент письма
-$title = 'Заявка с сайта'; // Название письма
+$title = 'Document'; // Название письма
 $body = '<p>Имя: <strong>'.$name.'</strong></p>'.
         '<p>Телефон: <strong>'.$tel.'</strong></p>'.
         '<p>Сообщение: <strong>'.$msg.'</strong></p>';
