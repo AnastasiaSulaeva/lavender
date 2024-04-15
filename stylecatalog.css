@@ -893,6 +893,7 @@ body {
         width: 200px;
     }
     .block_cellar {
+        width:auto;
         height: fit-content;
     }
     .block_cellar_1 {
