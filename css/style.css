@@ -38,11 +38,11 @@
 }
 
 .form__btn:hover{
-  background-color: rgb(91, 91, 255);
+  background-color: #39313c;
 }
 
 .form__btn:active{
-  background-color: rgb(91, 91, 255);
+  background-color: #39313c;
 }
 
 .form__btn:focus{
