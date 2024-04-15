@@ -15,7 +15,7 @@
 }
 
 .form__input-inp{
-  border: 1px solid rgb(61, 61, 255);
+  border: 1px solid #6f5d7a;
   border-radius: 0;
   outline: none;
   width: 100%;
@@ -23,11 +23,11 @@
 }
 
 .form__input-inp:focus {
-  outline: rgb(61, 61, 255) 2px solid;
+  outline: #6f5d7a 2px solid;
 }
 
 .form__btn {
-  background-color: rgb(61, 61, 255);
+  background-color: #6f5d7a;
   padding: 14px 30px;
   border-radius: 0;
   outline: none;
@@ -52,6 +52,11 @@
   .container{
   padding: 0;
   }
+  .form__input-inp {
+    width: 150px;
+  }
+  
+
   
 }
   
