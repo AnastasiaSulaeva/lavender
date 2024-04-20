@@ -955,6 +955,7 @@ textarea {
     }
     .form__input-inp {
         width: 150px;
+        padding: 10px 20px;
     }
     .logotip_networks {
         width: 400px;
