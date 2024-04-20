@@ -1,37 +1,200 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Отправка заявки на почту</title>
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style_contakt.css" type="text/css"/>
 </head>
-
-<body>
-
-  <div class="container">
-    <form id="form" class="form" autocomplete="off">
-      <div class="form__input-box">
-        <input class="form__input-inp" type="text" id="name" name="name" placeholder="Имя" autocomplete="off">
+<body style="background: #39313c; margin: 0;">
+  <div class="blok">
+    <!--навигационный блок-->
+    <div class="blok_with_navigation">
+      <div class="panel_navigation">
+        <div class="logotip">
+          <p class="logotip_text"> LAVENDER</p>
+        </div>
+        <div class="sections">
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+          <label for="burger-checkbox" class="burger"></label>
+          <ul class="menu_text_chapter">    
+            <li class="menu__item_chapter"> <a id="menu__link" href="catalog.html">  Каталог </a> </li>
+            <li class="menu__item_chapter"> <a id="menu__link" href="блог.html"> Блог </a> </li>
+            <li class="menu__item_chapter"> <a id="menu__link" href="доставка.html"> Доставка и оплата </a> </li>
+            <li class="menu__item_chapter"> <a id="menu__link" href="о нас.html"> О нас </a> </li>
+            <li class="menu__item_chapter"> <a id="menu__link" href="контакты.html"> Контакты </a> </li>
+          </ul>
+        </div>
+        <div class="number_phone">
+          <p class="number_text"> +79044036532</p>
+        </div>
+        <div class="button">
+          <div class="button_1">
+            <a href="#top" class="blok_contacts_text_2">       
+              <p class="button_2">   
+                <img  class="phone_logotip" src="телефон.png" alt="Изображение" class="img"> Связь с нами
+              </p>  
+            </a>   
+          </div>
+        </div>
       </div>
-      <div class="form__input-box">
-        <input class="form__input-inp" type="tel" id="tel" name="tel" placeholder="+7(___) ___-__-__"
-          autocomplete="off">
+    </div> 
+    <h1 class="text_block_name">
+      Контакты
+    </h1>
+    <div class="blok_after_navigation">
+      <div class="container_text">
+        <h5 class="contakt-caption">
+            <strong>
+                Lavender - это сеть цветочных магазинов по Cаратову и Саратовской области с доставкой цветов и букетов на дом
+            </strong>
+        </h5>
+        <p class="text_information">
+            Всю нужную вам информацию вы можете найти в разделе "Контактная информация"
+        </p>
       </div>
-      <div class="form__input-box">
-        <textarea class="form__input-inp" name="msg" id="msg" placeholder="Сообщение"></textarea>
+      <h1 class="text_block_name">
+        Контактная информация
+      </h1>
+      <div class="block_contakt" > <a name="top"></a>
+        <div class="block_contakt_1">
+          <div class="block_contakt_1_1_2">
+              <p> 
+                  Колл-центр функционирует в рамках стандартного рабочего дня, с 9 утра до 8 вечера.<br> Мы принимаем заказы ежедневно. <br>Если у вас есть другие вопросы, вы всегда можете воспользоваться формой обратной связи,<br> которая расположена на нашем сайте справа.
+              </p>
+          </div>
+          <div class="block_contakt_1_1">
+            <div class="container_1">
+              <div class="content">
+                <div class="left-side">
+                  <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Адрес</div>
+                    <div class="text-one">г.Саратов</div>
+                    <div class="text-two">Карьерная., 2б</div>
+                  </div>
+                  <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Телефон</div>
+                    <div class="text-one">8-904-403-65-32</div>
+                  </div>
+                  <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">anastasiasulaeva6@gmail.com</div>
+                    <div class="text-two">admin@site.com</div>
+                  </div>
+                </div>
+                <div class="right-side">
+                  <div class="topic-text">
+                      Отправьте нам сообщение
+                  </div>
+                  <p>
+                      Мы будем рады ответить на ваши вопросы!
+                  </p>
+                  <div class="container">
+                    <form id="form" class="form" autocomplete="off">
+                      <div class="form__input-box">
+                        <input class="form__input-inp" type="text" id="name" name="name" placeholder="Имя" autocomplete="off">
+                      </div>
+                      <div class="form__input-box">
+                        <input class="form__input-inp" type="tel" id="tel" name="tel" placeholder="+7(___) ___-__-__"
+                          autocomplete="off">
+                      </div>
+                      <div class="form__input-box">
+                        <textarea class="form__input-inp" name="msg" id="msg" placeholder="Сообщение"></textarea>
+                      </div>
+                      <button class="form__btn" type="submit">Отправить сообщение</button>
+                    </form>
+                  </div>
+                  <script src="js/inputmask.min.js"></script>
+                  <script src="js/just-validate.min.js"></script>
+                  <script type="module" src="js/main.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <button class="form__btn" type="submit">Отправить сообщение</button>
-    </form>
+    </div>
+    <h1 class="text_block_name">
+      Мы в социальных сетях
+    </h1>
+    <div class="logotip_networks"> <!--логотипы социальных сетей-->
+      <a  class="text_logotip" href="https://t.me/+79044036532">   
+          <img  class="logotip_networks1" src="телеграм.png" alt="Изображение" class="img"> Телеграм
+      </a>
+      <a class="text_logotip" href="https://vk.com/n.sulyaeva"> 
+          <img  class="logotip_networks1" src="вк.png" alt="Изображение" class="img"> Вконтакте
+      </a> 
+      <a class="text_logotip" href="https://ok.ru/nastya.sulyaeva"> 
+          <img  class="logotip_networks1" src="однокласники.png" alt="Изображение" class="img"> Однокласники
+      </a>
+    </div>
+    <!--блок для подвала-->
+    <div class="block_cellar"> 
+      <div class="block_cellar_1">
+        <div class="column">
+          <div class="cellar_information">
+            <div class="cellar_logotip_block">
+                <a href="блог.html" class="cellar_logotip_text"> 
+                    Блог
+                </a> 
+            </div>
+            <div class="cellar_logotip_block">
+                <a href="о нас.html" class="cellar_logotip_text">  
+                    О нас
+                </a> 
+            </div>
+            <div class="cellar_logotip_block">
+                <a href="доставка.html" class="cellar_logotip_text"> 
+                    Доставка и оплата
+                </a> 
+            </div>                           
+          </div>
+        </div>
+        <div class="column">
+          <div class="cellar_information">
+            <div class="cellar_logotip_block">
+              <a href="catalog.html" class="cellar_logotip_text"> 
+                Каталог 
+              </a> 
+            </div>
+            <div class="cellar_logotip_block">
+                <a href="index.html" class="cellar_logotip_text"> 
+                    Главная страница 
+                </a>
+            </div>
+            <div class="cellar_logotip_block">
+                <a href="контакты.html" class="cellar_logotip_text">
+                    Контакты
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <!--логотипы социальных сетей-->
+          <div class="cellar_logotip">
+            <div class="cellar_logotip_block">
+                <a href="https://t.me/+79044036532" class="cellar_logotip_text">
+                    Телеграм
+                </a>
+            </div>
+            <div class="cellar_logotip_block">
+                <a href="https://vk.com/n.sulyaeva" class="cellar_logotip_text">
+                    Вконтакте
+                </a>
+            </div>
+            <div class="cellar_logotip_block">
+              <a href="https://ok.ru/nastya.sulyaeva" class="cellar_logotip_text">
+                  Однокласники
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <script src="js/inputmask.min.js"></script>
-  <script src="js/just-validate.min.js"></script>
-  <script type="module" src="js/main.js"></script>
-</body>
-
+</body>      
 </html>
