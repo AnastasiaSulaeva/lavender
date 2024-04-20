@@ -958,7 +958,8 @@ textarea {
         padding: 10px 20px;
     }
     .form__btn {
-        width:130px
+        width:130px;
+        padding: 14px 20px;
     }
     .logotip_networks {
         width: 400px;
